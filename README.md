@@ -78,3 +78,22 @@ def looper3(x)
 
 looper3(4)
 ```
+7 What about the following code is not a good idea?
+```
+def not_a_good_idea(x):
+    x = 1
+    print(x)
+```
+```
+def not_a_good_idea2(x):
+    for i in range(x):
+        i = i * 2
+        print(i)
+```
+```
+def not_a_good_idea2(x):
+    t = 0
+    for i in range(x):
+        t += 2
+    print(x)
+```
