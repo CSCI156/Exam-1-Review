@@ -53,3 +53,28 @@ print(x)
 ```
 
 6 What is the output of the following programs?
+```
+def looper(x):
+    for i in range(6):
+        print(i)
+        
+looper(20)
+```
+```
+def looper2(x)
+    for i in range(6):
+        print(x)
+
+looper2(20)
+```
+```
+def looper3(x)
+    y = 1 
+    s = "1"
+    for i in range(2,x):
+        print(s + " = " + str(y))
+        y = y * i
+        s = s + "*" + str(i)
+
+looper3(4)
+```
