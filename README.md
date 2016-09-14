@@ -1,6 +1,14 @@
-1 s = "23" + "!@" + "alm". What is the value of s?
+1 
+```
+s = "23" + "!@" + "alm"
+```
+What is the value of s?
 
-2 s = s + "3". Is this a proper one line program?
+2 
+```
+s = s + "3"
+```
+Is this a proper one line program?
 
 3
 ```
@@ -97,3 +105,7 @@ def not_a_good_idea2(x):
         t += 2
     print(x)
 ```
+
+8 Write a program the will build the string "1+2+3+4+5" using a for loop.
+
+9 Write a procedure that will add the first n perfect squares.
