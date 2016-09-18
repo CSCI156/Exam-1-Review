@@ -154,4 +154,3 @@ print(x)
 - What does += do?
 - What do str() and int() do?
 - How to trace a program by hand, especially a program that has a loop.
-- 
