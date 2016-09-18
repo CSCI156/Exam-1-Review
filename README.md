@@ -11,6 +11,18 @@ s = s + "3"
 Is this a proper one line program?
 
 3
+What is the output of the following program?
+```
+x = 3
+y = 2.0
+s = "2"
+x = x + 5
+y += 5
+s += " is better than 1"
+print(x, y, s)
+```
+
+4
 ```
 def add_two(x):
     print(x+2)
@@ -25,7 +37,7 @@ add_two(6)
     a. What is the output of this program?
     b. Rewrite the program removing the 6 add_two calls and replacing it with a single for loop.
 
-4 What is the output of the following program?
+5 What is the output of the following program?
 ```
 def local_vs_global():
     global x
@@ -40,7 +52,7 @@ local_vs_global()
 print(x, y)
 ```
 
-5 What is the output of the following programs?
+6 What is the output of the following programs?
 ```
 x = 5
 for i in range(10):
@@ -60,7 +72,7 @@ for i in range(10):
 print(x)
 ```
 
-6 What is the output of the following programs?
+7 What is the output of the following programs?
 ```
 def looper(x):
     for i in range(6):
@@ -86,7 +98,8 @@ def looper3(x)
 
 looper3(4)
 ```
-7 What about the following code is not a good idea?
+
+8 What about the following code is not a good idea?
 ```
 def not_a_good_idea(x):
     x = 1
@@ -106,6 +119,39 @@ def not_a_good_idea2(x):
     print(x)
 ```
 
-8 Write a program the will build the string "1+2+3+4+5" using a for loop.
+9 Write a program the will build the string "1+2+3+4+5" using a for loop. It should not have a leading or following "+".
 
-9 Write a procedure that will add the first n perfect squares.
+10 Write a procedure that will add the first n perfect squares.
+
+11 What is the output of the following program?
+```
+x = 0
+for i in range(10):
+    if i==1 or i==5:
+        x += i
+    elif i==3 or i==7:
+        x += i**2
+    elif i==3 or i==9:
+        x += 2
+    else:
+        x += 4
+print(x)
+```
+
+12 Write 
+
+
+
+## Things you should know
+- What is the difference between a string, an integer, and a float?
+- What is the difference between = and == ?
+- What do the following ranges give?
+  range(m)
+  range(m, n)
+  range(m, n, 2)
+- What do if, elif, and else mean?
+- How to input a variable.
+- What does += do?
+- What do str() and int() do?
+- How to trace a program by hand, especially a program that has a loop.
+- 
