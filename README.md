@@ -112,7 +112,7 @@ def not_a_good_idea2(x):
         print(i)
 ```
 ```
-def not_a_good_idea2(x):
+def not_a_good_idea3(x):
     t = 0
     for i in range(x):
         t += 2
@@ -305,3 +305,19 @@ Output:
 1*2*3 = 6
 1*2*3*4 = 24
 ```
+
+8
+not_a_good_idea -> 
+There are several things wrong with this procedure.
+ - No matter what the parameter is, the procedure prints a 1. There is no need to set x = 1 to do that. In fact there is no need to call a procedure to print a 1 at all.
+- You shouldn't modify a parameter. If you need to use the parameter in some way that needs modification, make another variable and set it equal to the parameter. Like this:
+def not_a_good_idea(x):
+    y = x
+    y += 5   # Change y, not the parameter x
+    print(y)
+
+not_a_good_idea2
+- You should not modify a loop variable inside the loop, our outside the loop for that matter. In other words, do not modify loop variables. If you need to, set up another variable.
+
+not_a_good_idea3
+- After all of that work in the for loop all this procedure does is print out the parameter x. You don't need a procedure for that. What the author probably wanted was to print t. 
