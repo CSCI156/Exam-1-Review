@@ -52,7 +52,7 @@ local_vs_global()
 print(x, y)
 ```
 
-6 What is the output of the following programs?
+6 What is the output of the following programs? You should be able to trace these using a table.
 ```
 x = 5
 for i in range(10):
@@ -72,7 +72,7 @@ for i in range(10):
 print(x)
 ```
 
-7 What is the output of the following programs?
+7 What is the output of the following programs? You should be able to trace these using a table.
 ```
 def looper(x):
     for i in range(6):
@@ -138,7 +138,7 @@ for i in range(10):
 print(x)
 ```
 
-12 Write 
+12 Write a procedure that prints out "even" if the parameter has a value from 0 to 10 and is an even number, prints out "odd" if the parameter has a value from 0 to 10 and is odd, otherwise it prints out "Out of range.".
 
 
 
@@ -154,3 +154,51 @@ print(x)
 - What does += do?
 - What do str() and int() do?
 - How to trace a program by hand, especially a program that has a loop.
+- What is a parameter?
+
+
+
+
+#### Answers
+1 
+```
+"23!@alm"
+```
+
+2 No, if that is the only line of code the interpreter has no way of knowing what s is, and therefore cannot add "3" to it. You will get an error.
+
+3 
+```
+8 7.0 2 is better than 1
+```
+
+4
+```
+3
+4
+5
+6
+7
+8
+```
+```
+def add_two(x)
+    print(x+2)
+    
+for i in range(1,7):
+    add_two(i)
+```
+
+5
+```
+1 2
+3 4
+3 2
+```
+
+6
+```
+25
+```
+```
+
