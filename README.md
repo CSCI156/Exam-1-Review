@@ -308,6 +308,7 @@ Output:
 
 8
 not_a_good_idea -> 
+
 There are several things wrong with this procedure.
  - No matter what the parameter is, the procedure prints a 1. There is no need to set x = 1 to do that. In fact there is no need to call a procedure to print a 1 at all.
 - You shouldn't modify a parameter. If you need to use the parameter in some way that needs modification, make another variable and set it equal to the parameter. Like this:
